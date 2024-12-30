@@ -17,7 +17,7 @@ const router = useRouter();
 const list = ref<User[]>([]);
 
 const goDetail = () => {
-  router.push({ name: 'about' });
+  // router.push({ name: 'about' });
 };
 
 const typeMap: {
